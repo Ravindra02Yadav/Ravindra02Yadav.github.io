@@ -169,7 +169,7 @@
         padding: 8px 20px;
     }
 }
-@media (max-width:691px){
+@media (max-width:480px){
     .max-width{
         padding: 0 23px;
             }
