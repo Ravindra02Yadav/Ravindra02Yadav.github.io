@@ -254,7 +254,7 @@ width: 45%;
 height: 400px;
 width: 400px;
 object-fit: cover;
-border-radius: 10px;
+border-radius: 50%;
 }
 .about .about-content .right{
     width: 55%;
