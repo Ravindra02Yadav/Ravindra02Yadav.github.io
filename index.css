@@ -126,7 +126,7 @@
         padding: 0 50px;
             }
 }
-@media (max-width:1080px){
+@media all and (max-width:1080px){
    
      .menu-btn{
          display: block;
@@ -186,7 +186,8 @@
     .skills .max-width .about-content{
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
+
     
     }
     .skills .max-width .about-content .logo{
@@ -210,7 +211,7 @@
        
     } 
 }
-@media (max-width:480px){
+@media all and (max-width:480px){
     .max-width{
         padding: 0 23px;
             }
@@ -326,7 +327,7 @@ border-radius: 50%;
     
    }
    .skills .title{
-       position: relative;
+    position: relative;
    font-family: 'Ubuntu', sans-serif;
    text-align: center;
    font-size: 40px;
@@ -422,4 +423,25 @@ margin-top: -20px;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+.card-title{
+    color: crimson;
+    font-weight: 600;
+}
+.card-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 30px;
+    color: #fff;
+}
+.card-buttons div{
+    border: 1px solid black;
+    padding: 0 10px ;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
 }
