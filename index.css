@@ -366,7 +366,16 @@ border-radius: 50%;
     border-radius: 10px;
      height: 200px;
     width: 180px;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .skills .max-width .about-content .logo:hover{
+        height: 210px;
+    width: 190px;  
+    }
+    .skills .max-width .about-content .logo img:hover{
+        height: 130px;
+        width: 130px;  
     }
 .skills .max-width .about-content .logo img{
     height: 120px;
