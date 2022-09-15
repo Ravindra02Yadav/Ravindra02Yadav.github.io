@@ -183,6 +183,21 @@
         width: 45%;
        
     }
+    .skills .max-width .about-content{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    .skills .max-width .about-content .logo{
+         height: 100px;
+        width: 90px;
+        }
+    .skills .max-width .about-content .logo img{
+        height: 80px;
+        width: 80px;
+        margin: 10px;  
+    }
           
 }
 @media(max-width:700px){
@@ -220,6 +235,21 @@
     .about .max-width .about-content .right{
         flex: 100%;
     }
+    .skills .max-width .about-content{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .skills .max-width .about-content .logo{
+        height: 100px;
+       width: 90px;
+       }
+   .skills .max-width .about-content .logo img{
+       height: 80px;
+       width: 80px;
+       margin: 10px;  
+   }
 }
 
 /* about section style */
@@ -287,4 +317,63 @@ border-radius: 50%;
 }
 .about .about-content .right p{
     text-align: justify;
+}
+
+/* skills section */
+.skills{
+    font-family: 'poppins',sans-serif; 
+    margin-top: -50px; 
+    
+   }
+   .skills .title{
+       position: relative;
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 500;
+   margin-bottom: 60px;
+   padding-bottom: 20px;
+   }
+   .skills .title::before{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.skills .title::after{
+    content:"What i know";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.skills .max-width .about-content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.skills .max-width .about-content .logo{
+    background-color: #fff;
+    border-radius: 10px;
+     height: 200px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+.skills .max-width .about-content .logo img{
+    height: 120px;
+    width: 120px;
+    margin: 30px;  
+}
+.skills .max-width .about-content .logo h4{
+   padding: 0 50px 0 50px;
+margin-top: -20px;
 }
