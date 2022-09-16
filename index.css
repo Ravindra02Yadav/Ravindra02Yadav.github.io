@@ -10,6 +10,7 @@
 /* navbar styling */
 .navbar{
     position: fixed;
+    background-color: crimson;
     width: 100%;
     padding: 30px 0;
     z-index: 999;
@@ -434,14 +435,22 @@ margin-top: -20px;
 .card-buttons{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0 10px;
     margin: 30px;
     color: #fff;
+    
 }
 .card-buttons div{
-    border: 1px solid black;
-    padding: 0 10px ;
-    border-radius: 10px;
-    background-color: #111;
+ text-decoration: none;
+    padding: 2px ;
+    border-radius: 30px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    background-color: crimson;
+}
+.btn{
     color: #fff;
+}
+.card-buttons div:hover{
+    background-color: #fff;
+    color: #111;
 }
