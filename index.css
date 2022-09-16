@@ -225,7 +225,26 @@
     .about .max-width .about-content .right{
         flex: 100%;
     }
-   
+    .skills .max-width .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+     
+     }
+     .skills .max-width .about-content .logo{
+        width: 180px;
+
+        }
+        .skills .max-width .about-content .logo:hover{
+            height: 190px;
+        }
+        .skills .max-width .about-content .logo img:hover{
+            width: 100px;  
+        }
+    .skills .max-width .about-content .logo img{
+        width: 100px;
+        margin: 25px;  
+    }
 }
 
 /* about section style */
