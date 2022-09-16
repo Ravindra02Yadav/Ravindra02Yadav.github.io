@@ -12,3 +12,14 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active")
     })
     });
+    GitHubCalendar(".calendar", "Ravindra02Yadav");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "Ravindra02Yadav", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "Ravindra02Yadav", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${username}`)
+       }
+    }).then(r => r.text())
