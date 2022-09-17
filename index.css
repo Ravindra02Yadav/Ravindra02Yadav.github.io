@@ -228,22 +228,22 @@
     .skills .max-width .about-content{
         display: flex;
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 20px;
      
      }
      .skills .max-width .about-content .logo{
-        width: 160px;
+        width: 140px;
 
         }
         .skills .max-width .about-content .logo:hover{
-            height: 170px;
+            height: 150px;
         }
         .skills .max-width .about-content .logo img:hover{
-            width: 90px;  
+            width: 70px;  
         }
     .skills .max-width .about-content .logo img{
-        width: 90px;
-        margin: 20px;  
+        width: 70px;
+        margin: 15px;  
     }
 }
 
