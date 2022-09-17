@@ -502,7 +502,7 @@ margin-top: -20px;
    font-size: 40px;
    font-weight: 500;
    margin-bottom: 40px;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
    }
    .contacts .title::before{
     content:"";
@@ -525,6 +525,7 @@ margin-top: -20px;
     background: lavender;
     transform: translateX(-50%);
 }
+
 .contacts-content a{
     color: crimson;
     text-decoration: none;
