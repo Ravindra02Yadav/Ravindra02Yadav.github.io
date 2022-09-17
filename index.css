@@ -501,8 +501,8 @@ margin-top: -20px;
    text-align: center;
    font-size: 40px;
    font-weight: 500;
-   margin-bottom: 60px;
-   padding-bottom: 20px;
+   margin-bottom: 40px;
+   padding-bottom: 10px;
    }
    .contacts .title::before{
     content:"";
@@ -525,26 +525,31 @@ margin-top: -20px;
     background: lavender;
     transform: translateX(-50%);
 }
-.contacts-content{
-    display: flex;
-   justify-content: space-around;
-}
 .contacts-content a{
     color: crimson;
     text-decoration: none;
+    margin-top: 10%;
+    
 }
 .contacts-content a i{
     color: #111;
-    display: flex;
-    justify-content: center;
     font-size: 150%;
     font-weight: 600;
+    padding: 10px;
 }
-.contacts-content a i:hover{
-    font-size: 180%;
+.contact-details{
+padding: 10px;
+    width: 25%;
+   margin: auto;
+}
+.contact-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
 }
 .footer{
-    background-color: lavender;
+    background-color: gray;
     text-align: center;
     height: 50px;
     padding: 10px;
