@@ -232,11 +232,11 @@
      
      }
      .skills .max-width .about-content .logo{
-        width: 140px;
+        width: 110px;
 
         }
         .skills .max-width .about-content .logo:hover{
-            height: 150px;
+            height: 130px;
         }
         .skills .max-width .about-content .logo img:hover{
             width: 70px;  
