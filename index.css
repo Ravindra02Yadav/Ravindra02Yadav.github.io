@@ -199,29 +199,36 @@
         width: 40%;
        
     } 
-     .skills .max-width .about-content{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-     
-     }
-     .skills .max-width .about-content .logo{
-        width: 110px;
 
+    .skills .max-width .about-content{
+       display: flex;
+       flex-wrap: wrap;
+       gap: 35px;
+    
+    }
+    .skills .max-width .about-content .logo{
+   
+        border-radius: 8px;
+         height: 200px;
+        width: 150px;
+        padding: 6px;
         }
         .skills .max-width .about-content .logo:hover{
-            height: 130px;
+            height: 210px;
+        width: 160px;  
         }
         .skills .max-width .about-content .logo img:hover{
-            width: 70px;  
+            height: 130px;
+            width: 110px;  
         }
     .skills .max-width .about-content .logo img{
-        width: 70px;
-        margin: 15px;  
+        height: 90px;
+        width: 90px;
+        margin: 20px;  
     }
 }
 
-@media all and (max-width:480px){
+@media all and (max-width:520px){
     .max-width{
         padding: 0 23px;
             }
