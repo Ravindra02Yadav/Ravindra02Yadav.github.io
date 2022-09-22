@@ -199,7 +199,28 @@
         width: 40%;
        
     } 
+     .skills .max-width .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+     
+     }
+     .skills .max-width .about-content .logo{
+        width: 110px;
+
+        }
+        .skills .max-width .about-content .logo:hover{
+            height: 130px;
+        }
+        .skills .max-width .about-content .logo img:hover{
+            width: 70px;  
+        }
+    .skills .max-width .about-content .logo img{
+        width: 70px;
+        margin: 15px;  
+    }
 }
+
 @media all and (max-width:480px){
     .max-width{
         padding: 0 23px;
@@ -246,6 +267,7 @@
         margin: 15px;  
     }
 }
+
 
 /* about section style */
 section{
