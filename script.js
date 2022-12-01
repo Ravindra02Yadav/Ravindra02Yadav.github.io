@@ -7,10 +7,23 @@ $(document).ready(function(){
         }
     })
     // toggle menu
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active")
-        $('.menu-btn i').toggleClass("active")
+    // $('.menu-btn').click(function(){
+    //     $('.navbar .menu').toggleClass("active")
+    //     $('.menu-btn i').toggleClass("active")
+    // })
+    const hamburger = document.querySelector(".menu-btn i")
+    const navMenu = document.querySelector(".navbar .menu")
+
+    hamburger.addEventListener("click",()=>{
+        hamburger.classList.toggle("active")
+        navMenu.classList.toggle("active")
     })
+
+    document.querySelectorAll(".menu li").forEach(n =>n.addEventListener("click",() =>{
+        hamburger.classList.remove("active")
+        navMenu.classList.remove("active")  
+    }))
+   
     });
     GitHubCalendar(".calendar", "Ravindra02Yadav");
 
