@@ -260,6 +260,8 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        margin: auto;
+        justify-content: center;
      
      }
      .skills .max-width .about-content .logo{
@@ -350,6 +352,7 @@ border-radius: 50%;
 .skills{
     font-family: 'poppins',sans-serif; 
     margin-top: -50px; 
+
     
    }
    .skills .title{
