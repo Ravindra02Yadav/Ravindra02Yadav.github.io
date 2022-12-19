@@ -191,6 +191,14 @@
         width: 45%;
        
     }
+    .skills .max-width .about-content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        margin: auto;
+        justify-content: center;
+     
+     }
           
 }
 @media(max-width:700px){
@@ -207,6 +215,8 @@
        display: flex;
        flex-wrap: wrap;
        gap: 35px;
+       margin: auto;
+       justify-content: center;
     
     }
     .skills .max-width .about-content .logo{
@@ -255,6 +265,9 @@
     }
     .about .max-width .about-content .right{
         flex: 100%;
+    }
+    .skills{
+        margin: auto;
     }
     .skills .max-width .about-content{
         display: flex;
