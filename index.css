@@ -42,10 +42,13 @@
 }
 .navbar .logo a span{
     color: crimson;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
+    background-color: crimson;
 }
 .navbar .menu li{
     list-style: none;
